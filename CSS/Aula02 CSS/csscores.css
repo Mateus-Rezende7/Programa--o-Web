@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+header {
+    background-color: aqua;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 100%;
+    text-align: center;
+}
+
+H1 {
+    background-color: #aeaed4;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+    text-shadow:rgb(13, 75, 129);
+}
+
+h2 {
+    background-color: hsl(208, 100%, 97%);
+    font-family: "Times New Roman";
+    text-align: center;
+    font-style: italic;
+}
+
+.paragrafo
+ {
+    background-color: rgb(15, 42, 66);
+    font-family: "Times New Roman";
+    text-align: center;
+    text-height: 200%;
+}
+ 
+.Unidade
+{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-style: Italic;
+    text-shadow:rgb(0, 250, 0);
+    color:rgb(255, 255, 255);
+}
