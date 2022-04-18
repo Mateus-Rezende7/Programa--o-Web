@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 900px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: "kufan";
+    background-color: #3c9c2f;
+}
+
+
+
+
+h2 {
+    margin-top: 1;
+    font-size: 250%;
+    color: rgb(158, 35, 66);
+    font-family: "Kufam";
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+main {
+    padding: 3em;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 35px;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    color: rgb(190, 190, 190);
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+
+
+
+h2 {
+    color: rgb(136, 86, 86);
+    text-align: center;
+}
+
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+    
+    figure img {
+        height: 340px;
+        width: 620px;
+    }
+
+    figcaption {
+        text-align: center;
+        color: rgb(211, 248, 2);
+    }
+
+    li {
+        font-family: "Kufam";
+        letter-spacing: 1px;
+        font-size: 15px;
+    }
+
+    figure {
+        width: 620px;
+        border: 5px solid rgb(136, 86, 86);
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10%;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .sinopse {
+        color: rgb(5, 5, 5);
+        font-family: "Kufam";
+        font-size: 15px;
+    }

@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top{
+    
+    text-align: center;
+    background-color: rgba(66, 24, 24, 0.1);     
+    border: none;
+    
+      
+   }   
+
+
+.container{
+   
+    text-align: center;
+    border-style:groove;
+    border-width: 1px;
+    margin-top: 10px;
+    
+    
+}
+
+
+
+
+body{
+    color: white;
+    background-image: url(dante.gif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    
+    padding: 3.3em 0em 0em;
+    
+}
+img{
+    width: 150px;   
+    
+    display: block;
+}
+
+div{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8
+}
+.meio{
+border-style: double;
+border-top: 30px;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+
+article{
+    font-size: 18px;
+    padding: 0;
+}
+
+ul{
+    justify-content: first baseline;
+}
+
+.link{
+    text-align: center;
+    text-decoration: solid;
+    padding: 10px 10px;
+    border-style: outset;
+    border-width: 10px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    display: inline-block;
+    border-radius: 10px;
+    color: red;
+    
+}
+
+
