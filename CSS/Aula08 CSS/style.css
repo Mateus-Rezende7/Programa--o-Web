@@ -232,3 +232,11 @@ footer{
     box-shadow: 10px 10px 10px 5px black;
     background-color: black;
 }
+
+@media(max-width:768px){
+
+    .FILME11{
+       width: 100%;
+    }
+ 
+}

@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+body {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0;
+    padding-bottom: 2m;
+    margin: 0;
+    background-color: rgb(121, 45, 15);
+    font-size:25px;
+    font-family:  Times New Roman, serif;
+}
+
+.container {
+    background-color: brown;
+    background-image: url(rrr.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+
+
+header {
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    margin-bottom: 100px;
+    padding: 9%;
+    background-image: url(header.gif);
+    margin-top: 50px;
+}
+
+.imgheader {
+    width: 9%;
+
+}
+
+
+.ssec1 {
+    display: flex;
+    padding: 4%;
+    box-shadow: 10px 10px 10px 5px black;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    margin-left:50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.ssec2 {
+    display: flex;
+    padding: 4%;
+    box-shadow: 10px 10px 10px 5px black;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+.imagens1 {
+    width: 40%;
+    margin: 0;
+
+
+}
+
+.sinopse {
+    margin-left: 50px;
+}
+
+.imagens1:hover {
+    height: 40%;
+    width: 45%;
+}
+
+.imgmikasa {
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+}
+
+.mikasa {
+
+    padding: 4%;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    text-align: justify;
+    flex-direction: column;
+
+}
+
+.mikasaa {
+    justify-items: center;
+    justify-content: center;
+    margin-left: 160px;
+    margin-top: 80%;
+
+}
+
+.reportagens {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.secrep{
+    box-shadow: 10px 10px 10px 5px black;
+    display: flex;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 4%;
+}
+
+
+.imgeren{
+margin-right: 120px;
+margin-top: 60px;
+width: 130%;
+display: flex;
+}
+
+.erenA{
+    justify-items: center;
+    justify-content: center;
+    margin-left: 190px;
+    
+}
+
+.reportagenss{
+    display: flex;
+    box-shadow: 10px 10px 10px 5px black; 
+    margin-bottom: 100px;
+    border-radius: 50px;
+    margin-right: 50px;
+    padding: 4%; 
+    margin-left: 50px;
+}
+
+.shingeki{
+    padding: 4%;
+    
+    border-radius: 10px;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.shingekiimg{
+    width: 80%;
+}
+
+.titansimg{
+    width: 60%;
+    margin-left: 140px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.reportagem4{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.link4{
+    justify-items: center;
+    justify-content: center;
+    margin-left: 310px;
+    margin-top: 80%;
+
+}
+
+.fig4{
+    text-align: center;
+    margin:0;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	}
+a:hover {text-decoration: underline;
+	color:#000;
+	font-size:150%;
+	}
+a{
+    border-style:outset;
+    color:rgb(30, 112, 133)
+}
+
+footer p::before{
+    content:"2022 © "
+}
+
+footer p::after{
+    content: "/Mateus Rezende de Oliveira"
+}
+footer{
+    text-align: center;
+    background-color: green;
+}
+
+p::selection{
+    color: rgb(241, 241, 241);
+    background-color: green;
+}
+
+figcaption::first-letter{
+    color:brown;
+    font-size: 170%;
+    
+}
+figcaption::selection{
+  background-color: green;
+  color: beige;
+}
+
+li::selection{
+    background-color: green;
+  color: beige;
+}
+
+@media(max-width:768px){
+
+    .container{
+       width: 100%;
+    }
+ 
+}
