@@ -59,18 +59,18 @@
    grid-column: span 2;
 }
 
-@media(max-widt:768px){
-    
-    .container-galeria{
-    grid-template-columns: repeat(1,1fr);
-    grid-auto-rows: 50vh;
+
+@media (max-width: 768px) {
+    .container-galeria {
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 50vh;
     }
 
-    .h-2{
+    .h-2 {
         grid-row: span 1;
     }
 
-    .w-2{
+    .w-2 {
         grid-column: span 1;
     }
 }

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0;
+    padding-bottom: 2m;
+    margin: 0;
+    background-color: rgb(121, 45, 15);
+}
+
+
+   
