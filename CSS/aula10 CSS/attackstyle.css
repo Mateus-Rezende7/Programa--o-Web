@@ -16,9 +16,9 @@ body {
     background-image: url(rrr.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    max-width: 98%;
-    margin: 0 auto;
+    padding: 0;
+    
+    
 }
 
 
@@ -31,17 +31,19 @@ header {
     padding: 9%;
     background-image: url(header.gif);
     margin-top: 50px;
+    object-fit: fill;
 }
 
 .imgheader {
     width: 9%;
+    object-fit: fill;
 
 }
 
 
 .ssec1 {
     display: flex;
-    padding: 4%;
+    padding: 2%;
     box-shadow: 10px 10px 10px 5px black;
     margin-bottom: 100px;
     border-radius: 50px;
@@ -64,8 +66,8 @@ header {
 
 
 .imagens1 {
-    width: 40%;
-    margin: 0;
+    width: 30%;
+    padding: 50px;
 
 
 }
@@ -90,8 +92,8 @@ header {
     padding: 4%;
     margin-bottom: 100px;
     border-radius: 10px;
-    text-align: justify;
-    flex-direction: column;
+    text-align: left;
+   
 
 }
 
@@ -141,7 +143,7 @@ display: flex;
     margin-bottom: 100px;
     border-radius: 50px;
     margin-right: 50px;
-    padding: 4%; 
+    padding: 100px; 
     margin-left: 50px;
 }
 
@@ -174,8 +176,9 @@ display: flex;
 .link4{
     justify-items: center;
     justify-content: center;
-    margin-left: 310px;
+    margin-left: 140px;
     margin-top: 80%;
+
 
 }
 

@@ -1,21 +1,25 @@
 @charset "utf-8";
 
+body{
+    background-color: black;
+}
+
 header {
-    background-color: aqua;
+    color: aqua;
     font-family: Georgia, "Times New Roman", serif;
     line-height: 100%;
     text-align: center;
 }
 
 H1 {
-    background-color: #aeaed4;
+   color: #7676a3;
     font-family: Georgia, "Times New Roman", serif;
     text-align: center;
     text-shadow:rgb(13, 75, 129);
 }
 
 h2 {
-    background-color: hsl(208, 100%, 97%);
+    color: hsl(59, 34%, 57%);
     font-family: "Times New Roman";
     text-align: center;
     font-style: italic;
@@ -23,17 +27,15 @@ h2 {
 
 .paragrafo
  {
-    background-color: rgb(15, 42, 66);
+    color: #0f2a42;
     font-family: "Times New Roman";
     text-align: center;
-    text-height: 200%;
+    line-height: 200%;
 }
  
 .Unidade
 {
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    color: hsl(312, 100%, 99%);
     font-style: Italic;
-    text-shadow:rgb(0, 250, 0);
-    color:rgb(255, 255, 255);
 }

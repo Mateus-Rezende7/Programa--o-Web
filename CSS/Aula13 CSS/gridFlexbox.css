@@ -8,7 +8,7 @@
 
 body {
     font-size: 1.5em;
-    background-color: rgb(102, 102, 102);
+    background-color:#5a5548 ;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -19,13 +19,13 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: black;
+    background-color:#393529 ;
     color: white;
      font-family: 'Creepster', cursive;;
 }
 
 span {
-    color: rgb(109, 161, 30);
+    color: #4e6d52;
 }
 
 .container {
@@ -89,5 +89,5 @@ footer{
     font-family: 'Creepster', cursive;
     padding: 2px;
     margin: 20px;
-    color: rgb(29, 46, 61);
+    color: #4e6d52;
 }

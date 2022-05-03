@@ -12,7 +12,11 @@ body {
     color: white;
     line-height: 1.5em;
     margin: 0;
-    font: 200
+    font: 200;
+}
+
+.container{
+    padding: 10em;
 }
 
 h2 {
@@ -83,10 +87,12 @@ div {
 img {
     width: 200px;
     text-align: center;
+    
 }
 
 header {
     text-align: center;
+    margin-top: 120px;
 }
 
 .nav1 {
@@ -95,7 +101,7 @@ header {
     padding: 10px 15px;
     border-style: outset;
     border-width: 10px;
-
+    color: white;
 }
 
 .nav2 {
@@ -104,6 +110,7 @@ header {
     padding: 10px 15px;
     border-style: outset;
     border-width: 10px;
+    color: white;
 
 }
 

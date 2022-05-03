@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+body{
+    background-color: #3b4d71;
+    margin:10%
+}
+
+div{
+    background-color: #6e7fa6;
+    padding: 100px;
+    font-size: 20px;
+}
+
+.fontf{
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fontw{
+    font-weight:900;
+}
+
+.fonts{
+    font-style:oblique
+}
+
+.fonta{
+    text-align: end;
+}
+
+.fonti{
+    text-indent: 4em;
+}
+
+.fontsh{
+    text-shadow: 5px 5px 3px  #000000;
+}

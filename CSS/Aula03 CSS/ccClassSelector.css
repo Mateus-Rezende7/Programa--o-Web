@@ -8,9 +8,7 @@ ul{
       text-align: center;
       border-image: space;
 }
- h1{
-     color: aliceblue;
- }
+ 
 
 h3{
      color:rgb(49, 45, 45) ;
@@ -31,4 +29,9 @@ h3{
 
 fieldset{
     background-color: black;
+}
+
+.fieldh1 h1{
+    text-shadow: 5px 2px 10px rgb(255, 255, 255);
+    color: white;
 }
