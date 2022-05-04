@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    display: table;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.text {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #340735;
+    color: #a3c68c;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.text:hover p {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.4);
+}
+
+.background {
+    background-color: #4f364a;
+}
+
+
+.form {
+    display: flex;
+    margin: 10em;
+    background-color: #a3c68c;
+    padding: 2em;
+    
+    flex-direction: column;
+}
+
+#titulo{
+   background-color: #4f364a;
+   
+}
+
+#color{
+    color: white;
+}
+
+.containe{
+    box-shadow: 10px 10px 10px 5px #6e6662;
+    max-width: 100%;
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 100px;
+    
+}
+
+
+
+#listas{
+     
+        background-color: white;
+        max-width: 100px;
+        
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+        box-shadow: 10px 10px 10px 5px #6e6662;
+        margin-right: 100px;
+        position: relative;
+        left: 50px;
+        top:45px;
+}
+
+.Parceiros {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: center;
+    background-color: #a3c68c;
+    
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top:45%;
+
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #879676;
+    color: #ffffff;
+    margin: 0 2%;
+    box-shadow: 1px 1px 5px black;
+    border: 3px solid white;
+}
+
+.card-body {
+    border-radius: 4px !important;
+}
+
+.card p {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    background-color: #340735;
+    color: #a3c68c;
+    margin:2em;
+    position: relative;
+    top:25px;
+    
+}
