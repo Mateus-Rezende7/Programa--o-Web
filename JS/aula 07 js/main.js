@@ -1,5 +1,3 @@
-
-
 const colaboradores = [
     {
         nome: 'Luva de pedreiro',
@@ -107,8 +105,6 @@ if (valor > 2427) {
  if (valor > 3641) {
     var inss = 0.14 * valor
 }
- 
-
 else {
     var inss = 0.075 * valor
 }
@@ -153,6 +149,5 @@ salario = 10000
     case "Clebao":
      salario *= 0.14;
      break;
-      
 
   }
