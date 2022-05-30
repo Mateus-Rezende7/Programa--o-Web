@@ -12,6 +12,22 @@ body *{
     box-sizing: border-box;
 }
 
+.aviso{
+    color: white;
+    display: flex;
+    width: 25%;
+    height: 150px;
+}
+
+.aviso2{
+    color: white;
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+}  
+
+
+
 .main-login{
     width: 100vw;
     height: 100vh;

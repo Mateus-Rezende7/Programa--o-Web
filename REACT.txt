@@ -1,0 +1,24 @@
+- Oque é react?
+
+Resposta: É uma biblioteca usada para contruir uma interface para o usuário.
+Referência: https://www.hostinger.com.br/tutoriais/o-que-e-react-javascript
+
+- Diferença entre biblioteca e framework:
+
+Resposta:Biblioteca é um conjunto de funções que retornará valores para a aplicação, geralmente organizadas em classes, que simplificam a linguagem de programação. Já um framework pode ser construido com várias bibliotecas para contruir uma estrutura para oque você deseja desenvolver.  
+Referência: https://www.agenciakaizen.com.br/desenvolvimento-de-sites/descubra-a-diferenca-entre-api-biblioteca-e-framework/
+
+-Oque são props?
+
+Resposta:São entradas que não podem ser alteradas dentro do compenente, por isso todos os componentes do reac devem ser "autênticos" para não alterar o valor do props.
+Referência: https://www.lewagon.com/pt-BR/blog/react-componentes-e-props#:~:text=As%20props%20s%C3%A3o%20entradas%20que,alterar%20nenhum%20valor%20das%20props.
+
+Oque são componentes?
+
+Resposta: São funções do JS que podem ou não recerber entradas (que são os props) para retornar elementos que serão inseridos na DOM. 
+Referência: https://www.lewagon.com/pt-BR/blog/react-componentes-e-props#:~:text=As%20props%20s%C3%A3o%20entradas%20que,alterar%20nenhum%20valor%20das%20props.
+
+Oque são hooks?
+
+Resposta: O hooks permite o uso de vários recursos de uma forma mais simplificada atráves de funções.
+Referência: https://www.alura.com.br/artigos/react-hooks
