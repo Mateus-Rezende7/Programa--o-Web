@@ -12,6 +12,6 @@ function App() {
       <Sobre />
     </div>
   );
-}
+};
 
 export default App;
