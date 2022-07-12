@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4950fc90-fdfc-4fab-b36a-5aa37c596d79" name="Changes" comment="" />
+    <list default="true" id="b01a0140-d800-4b0a-b6e8-bdf3ddc92509" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercicio_10_JAVA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Bqa4TkHdOmnT5PiuwB0xykZ0mh" />
+  <component name="ProjectId" id="2Br4L9irlUIPosMLGZvsCKie2K5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,36 +41,28 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Exercício2">
-    <configuration name="Exercício1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercício1" />
-      <module name="Exercicio_06_java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercício2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercício2" />
-      <module name="Exercicio_06_java" />
+  <component name="RunManager">
+    <configuration name="Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio1" />
+      <module name="Exercicio_10_JAVA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercício2" />
-        <item itemvalue="Application.Exercício1" />
+        <item itemvalue="Application.Exercicio1" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4950fc90-fdfc-4fab-b36a-5aa37c596d79" name="Changes" comment="" />
-      <created>1657635879106</created>
+      <changelist id="b01a0140-d800-4b0a-b6e8-bdf3ddc92509" name="Changes" comment="" />
+      <created>1657650813630</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657635879106</updated>
+      <updated>1657650813630</updated>
     </task>
     <servers />
   </component>
