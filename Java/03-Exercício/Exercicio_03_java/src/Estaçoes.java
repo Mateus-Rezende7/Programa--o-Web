@@ -1,6 +1,7 @@
 import java.util.Scanner;
 /*               Julho, Agosto e setembro: inverno.
          outubro, novembro e dezembro: primavera
+         : Abril, Maio e junho: Outono;
         Janeiro, Fevereiro e março: verão*/
 public class Estaçoes {
     public static void main(String[] args) {
@@ -13,15 +14,19 @@ public class Estaçoes {
 
         if (estação.equalsIgnoreCase("julho") || estação.equalsIgnoreCase("agosto") || estação.equalsIgnoreCase("Setembro")) {
             System.out.println("O mês de " + estação + " corresponde a estação inverno");
-        } else {
-            if (estação.equalsIgnoreCase("outubro") || estação.equalsIgnoreCase("novembro") || estação.equalsIgnoreCase("dezembro")) {
+        }
 
+          else if (estação.equalsIgnoreCase("outubro") || estação.equalsIgnoreCase("novembro") || estação.equalsIgnoreCase("dezembro")) {
                 System.out.println("O mês de " + estação + " corresponde a estação primavera");
-            } else {
-                System.out.println("O mês de " + estação + " corresponde ao verão");
             }
+
+          else if(estação.equalsIgnoreCase("Janeiro") || estação.equalsIgnoreCase("Fevereiro") || estação.equalsIgnoreCase("março")){
+                   System.out.println("O mês de " + estação + " corresponde ao verão");
+          }
+          else {
+                   System.out.println("O mês de " +estação+ " corresponde ao outono");
+                }
 
             entrada.close();
         }
     }
-}
