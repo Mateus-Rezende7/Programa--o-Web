@@ -12,8 +12,7 @@ public class Exercicio {
         System.out.println();
         for (int i = 0; i < frutas.length; i++) {
             System.out.println("As frutas foram armazenadas? " + frutas[i].isEmpty());
-        }
-        for (int i = 0; i < frutas.length; i++) {
+
             if (frutas.length >= 3) {
                 System.out.println("Tem menos de 3 letras");
             }
